@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	
+		<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ORGANICS</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="../css/external.css">
+    </head>
+
+    <body>
+	<header>
+AFRICAN VARIETY STORE
+</header>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">HOME</a>  
+      <a href="organics.html" class="active">ORGANIC FOODS</a>
+      <a href="processed.html" >PROCESSED AND PACKAGED FOODS</a>
+   <a href="beauty.html" >BEAUTY PRODUCTS</a>
+  <a href="hair.html">HAIR EXTENSION</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	
+			
+		<h1>ORGANIC FOODS</h1>
+		<div class="main">
+<hr>
+<main>
+<section>
+<article>
+    <div class="content" id="zoom">
+      <a href= "order.html" class="pack" value="Alligator pepper" onclick= "myProduct(this)"><img src="../images/organics/alligator_pepper.webp" alt="kuli kuli" style="width:100%">
+      <h3>Aligator Pepper</h3>
+	  <h4>&euro;9.99</h4>
+	  <h5><i>Net Weight: 10g</i></h5></a>
+      <p>Harvested fresh from Nothern Nigeria.</p>
+    </div></a>
+	</article>
+ 
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Bean" onclick= "myProduct(this)"> <img src="../images/organics/bean.webp" alt="bean" style="width:100%;height: 200%">
+      <h3>Bean</h3>
+	  <h4>&euro;19.99</h4>
+	  <h5><i>Net Weight: 500g</i></h5></a>
+      <p>fresh and unprocessed honey bean. </p>
+    </div></a>
+	</article>
+ 
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Bean Flour" onclick= "myProduct(this)"> <img src="../images/organics/bean_flour.webp" alt="bean flour" style="width:100%;">
+      <h3>Bean Flour</h3>
+	  <h4>&euro;23.50</h4>
+	  <h5><i>Net Weight: 50g</i></h5></a>
+      <p>Grinded honey bean ready for bean cakes.</p>
+    </div></a>
+	</article>
+  
+  <article>
+  <div >
+     <a href= "order.html" class="pack" value="Bitter Kola" onclick= "myProduct(this)"> <img src="../images/organics/cabbage.webp" alt="cabbage" style="width:100%">
+      <h3>Bitter Kola</h3>
+	  <h4>&euro;18.00</h4>
+	  <h5><i> Net Weight: 200g</i></h5></a>
+      <p>Herbal kola gotten fresh from Ghana.
+	  </p>
+    </div> </a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Cray Fish" onclick= "myProduct(this)"> <img src="../images/organics/crayfish.webp" alt="Cray fish" style="width:100%">
+      <h3>Cray Fish</h3>
+	  <h4>&euro;14.99</h4>
+	  <h5><i>Net Weight: 150g</i></h5></a>
+      <p>Dried shrimps from river Niger.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Dried Fish" onclick= "myProduct(this)"> <img src="../images/organics/dried_fish.webp" alt="Dried fish" style="width:100%">
+      <h3>Dried Fish</h3>
+	  <h4>&euro;38.45</h4>
+	  <h5><i>Net Weight: 800g</i></h5></a>
+      <p>Dried fresh fish for soups.</p>
+    </div></a>
+	</article>
+	<article>
+    <div>
+     <a href= "order.html" class="pack" value="Egusi" onclick= "myProduct(this)"> <img src="../images/organics/egusi.webp" alt="egusi" style="width:100%;">
+      <h3>Egusi</h3>
+	  <h4>&euro;22.20</h4>
+	  <h5><i>Net Weight: 1kg</i></h5></a>
+      <p>Grinded melon seeds.</p>
+    </div></a>
+	</article>
+	<article>
+    <div>
+     <a href= "order.html" class="pack" value="Fish" onclick= "myProduct(this)"> <img src="../images/organics/fish.webp" alt="fish" style="width:100%">
+      <h3>Ice fish</h3>
+	  <h4>&euro;11.99</h4>
+	  <h5><i>Net Weight: 300g</i></h5></a>
+      <p>Frozen scombia fish.<br/>
+    </div></a>
+	</article>
+  <article>
+<div>
+     <a href= "order.html" class="pack" value="Fresh Meat" onclick= "myProduct(this)"> <img src="../images/organics/fresh_meat.webp" alt="fresh meat" style="width:100%">
+      <h3>Beef</h3>
+	  <h4>&euro;4.99</h4>
+	  <h5><i>Net Weight: 350g</i></h5></a>
+      <p>Fresh African cow muscle.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Fufu Flakes" onclick= "myProduct(this)"> <img src="../images/organics/fufu_flakes.webp" alt="fufu_flakes" style="width:100%;height: 200%">
+      <h3>Fufu Flakes</h3>
+	  <h4>&euro;18.45</h4>
+	  <h5><i>Net Weight: 100g</i></h5></a>
+      <p>Grinded and fermented cassava.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+      <a href= "order.html" class="pack" value="Kola nuts" onclick= "myProduct(this)"><img src="../images/organics/kola_nuts.webp" alt="Kola nuts" style="width:100%;">
+      <h3>Kola Nuts</h3>
+	  <h4>&euro;8.99</h4>
+	  <h5><i>Net Weight: 150g</i></h5></a>
+      <p>Traditional Igbo Kola nuts.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="mango" onclick= "myProduct(this)"> <img src="../images/organics/Mango.webp" alt="Mango" style="width:100%">
+      <h3>Sweet Mangoes</h3>
+	  <h4>&euro;4.99</h4>
+	  <h5><i>Net Weight: 500g</i></h5></a>
+      <p>Freshely plucked sweet mangoes.<br/>
+	  </p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Ofada Rice" onclick= "myProduct(this)"> <img src="../images/organics/ofada_rice.webp" alt="Ofada ricet" style="width:100%">
+      <h3>Ofada Rice</h3>
+	  <h4>&euro;12</h4>
+	  <h5><i>Net Weight: 400g</i></h5></a>
+      <p>Local rice fotten from Ogun, Nigeria.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Okra" onclick= "myProduct(this)"> <img src="../images/organics/okra.webp" alt="okra" style="width:100%;height: 200%">
+      <h3>Okra</h3>
+	  <h4>&euro;7.99</h4>
+	  <h5><i>Net Weight: 100g</i></h5></a>
+      <p>African Okra fruits.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+      <a href= "order.html" class="pack" value="Palm Oil" onclick= "myProduct(this)"><img src="../images/organics/palm_oil.webp" alt="Palm oil" style="width:100%;">
+      <h3>Palm Oil</h3>
+	  <h4>&euro;10.00</h4>
+	  <h5><i>Net Weight: 800g</i></h5></a>
+      <p>Fresh oil gotten from palm fruits.</p>
+    </div></a>
+	</article>
+	<article>
+    <div>
+     <a href= "order.html" class="pack" value="Pepper" onclick= "myProduct(this)"> <img src="../images/organics/pepper.webp" alt="Pepper" style="width:100%">
+      <h3>Pepper</h3>
+	  <h4>&euro;2.99</h4>
+	  <h5><i>Net Weight: 50g</i></h5></a>
+      <p>Hot Ghana pepper.<br/>
+	  </p>
+    </div></a>
+	</article>
+<article>
+<div>
+    <div>
+     <a href= "order.html" class="pack" value="Plantains" onclick= "myProduct(this)"> <img src="../images/organics/plantains.webp" alt="plantains" style="width:100%">
+      <h3>Plantains</h3>
+	  <h4>&euro;10</h4>
+	  <h5><i>Net Weight: 1kg</i></h5></a>
+      <p>Unriped plantains ready for your poridges.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Snails" onclick= "myProduct(this)"> <img src="../images/organics/snails.webp" alt="Snails" style="width:100%;height: 200%">
+      <h3>Snails</h3>
+	  <h4>&euro;18.99</h4>
+	  <h5><i>Net Weight: 100g</i></h5></a>
+      <p>Dried snails from Niger Delta villages.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+      <a href= "order.html" class="pack" value="Sweet Potatoes" onclick= "myProduct(this)"><img src="../images/organics/sweet_potatoes.webp" alt="Sweet Potatoes" style="width:100%;">
+      <h3>Sweet Potatoes</h3>
+	  <h4>&euro;15.00</h4>
+	  <h5><i>Net Weight: 1kg</i></h5></a>
+      <p>Fresh Ghana sweet potatoes.</p>
+    </div></a>
+	</article>
+  <article>
+    <div>
+     <a href= "order.html" class="pack" value="Yams" onclick= "myProduct(this)"> <img src="../images/organics/yams.webp" alt="yamso" style="width:100%">
+      <h3>Yams</h3>
+	  <h4>&euro;19.99</h4>
+	  <h5><i>Net Weight: 5kg</i></h5></a>
+      <p>Fresh new year yams from Delta, Nigeira.<br/>
+	  </p>
+    </div></a>
+	</article>
+</section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small black">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic"  href="http://www.facebook.com">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="http://www.twitter.com">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+         
+          <!--Linkedin -->
+          <a class="li-ic" href="http://www.linkedin.com">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="http://www.instagram.com">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a href="/"> africanvarietystore.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script src="../js/JS_external.js"></script>
+    </body>
+</html>

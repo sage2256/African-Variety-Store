@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta charset="utf-8">
+		<script src="../js/JS_external.js"></script>
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Google Fonts Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="../css/mdb.min.css">
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="../css/external.css">
+        <title>Beauty Products</title>
+
+    </head>
+
+<body>
+	
+
+<header>
+AFRICAN VARIETY STORE
+</header>
+	
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">HOME</a>  
+      <a href="organics.html">ORGANIC FOODS</a>
+      <a href="processed.html" >PROCESSED AND PACKAGED FOODS</a>
+   <a href="beauty.html" class="active">BEAUTY PRODUCTS</a>
+  <a href="hair.html">HAIR EXTENSION</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+		<h1>BEAUTY PRODUCTS</h1>
+		<div class="main">
+<hr>
+<main>
+  <section>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="NIUMA Skin Lightening AHA Lotion" onclick="myProduct(this)">
+        <img src="../images/beauty/aha.webp">
+        <h3>NIUMA Skin Lightening AHA Lotion 500ml</h3>
+        <h4>&euro;12.99</h4>
+        <p>Niuma Skin lightening body lotion tones and brightens complexion.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Apricot Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/apricotoil.webp">
+        <h3>MORIMAX Virgin 100% Pure Apricot Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>100% pure apricot oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Apricot Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/avooil.webp">
+        <h3>MORIMAX Virgin 100% Pure Apricot Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>100% pure avocado oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="Organic Root Stim. Anti Bump Spray" onclick="myProduct(this)">
+        <img src="../images/beauty/bumpspray.webp">
+        <h3>Organic Root Stim. Anti Bump Spray 133ml</h3>
+        <h4>&euro;7.99</h4>
+        <p>Spray anti-bump spray onto the palm of your hand</p></a>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="CARO Light Whitening Tonic Lotion" onclick="myProduct(this)">
+        <img src="../images/beauty/carolotion.webp">
+        <h3>CARO Light Whitening Tonic Lotion 125ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>the benefits of a toner and moisturizing creme all in one.</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="CARO light Skin Beautifying Milk" onclick="myProduct(this)">
+        <img src="../images/beauty/caromilk.webp"></a>
+        <h3>CARO light Skin Beautifying Milk 250ml</h3>
+        <h4>&euro;15.99</h4>
+        <p>Spread a thin layer on your face, arms or body.</p>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+      <a href="order.html" class="pack" value="CARO Light Brightening Night Crea" onclick="myProduct(this)">
+        <img src="../images/beauty/caronight.webp">
+        <h3>CARO Light Brightening Night Cream 200ml</h3>
+        <h4>&euro;14.99</h4>
+        <p>Wash your face and body and apply it before going to bed.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Carrot Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/carrotoil.webp">
+        <h3>MORIMAX Virgin 100% Pure Carrot Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>100% pure Carrot oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Castor Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/castoroil.webp">
+        <h3>MORIMAX Virgin 100% Pure Castor Oil 150ml</h3>
+        <h4>&euro;6.99</h4>
+        <p>100% pure Castor oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="soap">
+      <div>
+        <a href="order.html" class="pack" value="HT26 Cleansing Soap" onclick="myProduct(this)">
+        <img src="../images/beauty/cleansing.webp">
+        <h3>HT26 Cleansing Soap 150g</h3>
+        <h4>&euro;9.99</h4>
+        <p>Cleansing Soap with Vitamin E, Enriched with cold cream.  </p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="Clear Essence Skin Beautifying Milk" onclick="myProduct(this)">
+        <img src="../images/beauty/clearesse.webp">
+        <h3>Clear Essence Skin Beautifying Milk 227g</h3>
+        <h4>&euro;14.99</h4>
+        <p>All over body complexion lotion. Brightens dull complexion. .</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="PALMER'S Cocoa Butter Formula" onclick="myProduct(this)">
+        <img src="../images/beauty/cocoabutterlotion.webp">
+        <h3>PALMER'S Cocoa Butter Formula 350ml</h3>
+        <h4>&euro;8.99</h4>
+        <p>An advanced moisturizer that softens, relieves dry skin.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Coconut Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/cocooi.webp">
+        <h3>MORIMAX Virgin 100% Pure Coconut Oil 150ml</h3>
+        <h4>&euro;6.99</h4>
+        <p>100% pure Coconut oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="NIUMA Extra Cream" onclick="myProduct(this)">
+        <img src="../images/beauty/extracream.webp">
+        <h3>NIUMA Extra Cream 50ml</h3>
+        <h4>&euro;7.99</h4>
+        <p>It helps deal with the skin hyper-pigmentation problems.</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="PARMER'S Skin Success Anti-Dark Spots Cream" onclick="myProduct(this)">
+        <img src="../images/beauty/fade.webp">
+        <h3>PARMER'S Skin Success Anti-Dark Spots Cream</h3>
+        <h4>&euro;14.99</h4>
+        <p>Lightens post-acne scars, age spots, dark spots in two weeks</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX Virgin 100% Pure Glycerine 150ml" onclick="myProduct(this)">
+        <img src="../images/beauty/glycerin.webp">
+        <h3>MORIMAX Virgin 100% Pure Glycerine 150ml</h3>
+        <h4>&euro;6.99</h4>
+        <p>100% pure Glycerine for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="soap">
+      <div>
+        <a href="order.html" class="pack" value="MAKARI whitening Exfoliating Soap" onclick="myProduct(this)">
+        <img src="../images/beauty/image.webp">
+        <h3>MAKARI whitening Exfoliating Soap</h3>
+        <h4>&euro;16.99</h4>
+        <p>Apply soap directly to wet face and neck once daily.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX 100% Natural Lavender Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/lavenoil.webp">
+        <h3>MORIMAX 100% Natural Lavender Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>100% Natural Lavender oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="soap">
+      <div>
+        <a href="order.html" class="pack" value="SOFT N WHITE Skin Lightening Soap" onclick="myProduct(this)">
+        <img src="../images/beauty/lightesoap.webp">
+        <h3>SOFT N WHITE Skin Lightening Soap 200g</h3>
+        <h4>&euro;8.99</h4>
+        <p>Niuma Exfoliating Soap with Carrot Oil and Apricot powder.</p></a>
+      </div>
+    </article>
+    <article class="soap">
+      <div>
+        <a href="order.html" class="pack" value="CARO Light Soap" onclick="myProduct(this)">
+        <img src="../images/beauty/lightsoap.webp">
+        <h3>CARO Light Soap</h3>
+        <h4>&euro;8.99</h4>
+        <p>Caro light lightening soap is gentle on the skin.</p></a>
+      </div>
+    </article>
+    <article class="lotion">
+      <div>
+        <a href="order.html" class="pack" value="MAKARI Whitening Beauty Milk" onclick="myProduct(this)">
+        <img src="../images/beauty/milk.webp">
+        <h3>MAKARI Whitening Beauty Milk 140ml</h3>
+        <h4>&euro;48.99</h4>
+        <p> Skin emulsion that is formulated to restore skin’s moisture and glow.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX 100% Natural Marula Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/oil.webp">
+        <h3>MORIMAX 100% Natural Marula Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>100% Natural Marula oil for the face and hair</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="SOFT N WHITE Swiss Papaya Lightening Lotion" onclick="myProduct(this)">
+        <img src="../images/beauty/papayalotion.webp">
+        <h3>SOFT N WHITE Swiss Papaya Lightening Lotion</h3>
+        <h4>&euro;14.99</h4>
+        <p>is specially formulated to eradicate dry and dull spots</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX 100% Pure Shea Butter Moisturizing Cream" onclick="myProduct(this)">
+        <img src="../images/beauty/sheabutter.webp">
+        <h3>MORIMAX 100% Pure Shea Butter Moisturizing Cream 500ml</h3>
+        <h4>&euro;14.99</h4>
+        <p>helps with skin problems and supports wound healing.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="MORIMAX 100% Natural Shea Oil" onclick="myProduct(this)">
+        <img src="../images/beauty/sheaoil.webp">
+        <h3>MORIMAX 100% Natural Shea Oil 150ml</h3>
+        <h4>&euro;9.99</h4>
+        <p>Ideal for the treatment of dry skin as well as neurodermatitis.</p></a>
+      </div>
+    </article>
+    <article class="oil">
+      <div>
+        <a href="order.html" class="pack" value="AIR&WHITE So white Exfloliating Soap" onclick="myProduct(this)">
+        <img src="../images/beauty/soap.webp">
+        <h3>FAIR&WHITE So white Exfloliating Soap 200g</h3>
+        <h4>&euro;9.99</h4>
+        <p>Gently cleans your body and eliminates dead cells.</p></a>
+      </div>
+    </article>
+
+
+
+  </section>
+</main>
+<footer class="page-footer font-small black">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic"  href="http://www.facebook.com">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="http://www.twitter.com">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+         
+          <!--Linkedin -->
+          <a class="li-ic" href="http://www.linkedin.com">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="http://www.instagram.com">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a href="/"> africanvarietystore.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- jQuery -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+	
+		<meta charset="utf-8">
+		<script src="../JS/JS_external.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+		<!--<script type="text/javascript">
+		window.onbeforeunload = function(){
+		return 'Are you sure you want to leave?'};
+		</script>-->
+			<link rel="stylesheet" href="../css/external.css">
+		<!--<link rel="stylesheet" href="../css/emmanuel.css">-->
+	
+		<!--<link rel="stylesheet" href="../css/ahaoma.css">-->
+        <title>Order Form</title>
+
+    </head>
+	<header>
+	AFRICAN VARIETY STORE
+	</header>
+
+    <body onload="getProduct()">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">HOME</a>  
+      <a href="organics.html">ORGANIC FOODS</a>
+      <a href="processed.html">PROCESSED AND PACKAGED FOODS</a>
+   <a href="beauty.html">BEAUTY PRODUCTS</a>
+  <a href="hair.html">HAIR EXTENSION</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	<center> <h2> To complete your order of <span id="result"></span>, please fill out the Form Below: </h2></center>
+<hr/>
+<form method="" action="message.html" name="order_form" id ="form" onsubmit="return validate()">
+<table>
+<tr>    
+                <td><label>Full Name: </label></td>    
+                <td>    
+                    <input type="text" name="fname" placeholder="Full Name">    
+                </td>    
+            </tr>   
+<tr>    
+                <td><label>Delivery Address: </label></td>    
+                <td>    
+                    <input type="textarea" name="address" placeholder="Address">    
+                </td>    
+            </tr>    			
+<tr>    
+                <td><label>Email: </label></td>    
+                <td>    
+                    <input type="text" name="email" placeholder="example@gmail.com">    
+                </td>
+            </tr>
+<tr>    
+                <td><label>Mobile: </label></td>    
+                <td>    
+                    <input type="tel" name="mobile" placeholder="+35381234567">    
+                </td>
+            </tr>
+<tr><td><label>Product:</label></td><td><input type="text" name="product" id="product"></td></tr>
+<tr>    
+                <td><label>Quantity: </label></td>    
+                <td>    
+                    <input type="number" name="quantity" placeholder="Enter Number of Product">    
+                </td>    
+            </tr>
+<tr><td><input type="submit" value="Submit Order" ></td></tr>
+	
+	</table>
+</form>
+<footer class="page-footer font-small black">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic"  href="http://www.facebook.com">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="http://www.twitter.com">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+         
+          <!--Linkedin -->
+          <a class="li-ic" href="http://www.linkedin.com">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="http://www.instagram.com">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a href="/"> africanvarietystore.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- jQuery -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+<script> 
+const form = document.getElementById("form");
+  const formData = new FormData(form);
+  formData.append('product',localStorage.getItem('productname'));
+  console.log(Array.from(formData));
+  document.querySelector("#product").textContent = JSON.stringify(Array.from(formData));
+  </script>
+    
+    </body>
+</html>

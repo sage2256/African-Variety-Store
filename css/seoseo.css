@@ -1,0 +1,96 @@
+
+@media screen and (max-width: 1000px) {
+	header {
+		height: 100px;
+	}
+	header h1 {
+		font: bold 24px/1 'orbitron';
+		transform: translateY(-50%);
+	}
+
+	header div {display: none;}
+   a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+		width: 100vw;
+  }
+}
+
+h1 a {
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	font: bold 30px/1 'orbitron';
+	color: #fff;
+	letter-spacing: 1px;
+  text-align: center;
+}
+h1 a:hover {
+  color: black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	display: block;
+	box-sizing: border-box;
+	width: 950px;
+	border: 2px solid black;
+	margin: 80px auto;
+	text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover  {
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+table {
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+	width: 200px;
+	text-align: center;
+	margin: 40px auto 100px;
+	line-height: 2;
+}
+
+center h2 {
+	margin-top: 14px;
+	font: bold 14px/1 'orbitron';
+	letter-spacing: 1px;
+	color: #444;
+	margin-bottom: 5px;
+}
+
+tr {
+	/* letter-spacing:  */
+}
+
+tr:nth-of-type(7) {
+	text-align: right;
+	float: right;
+	margin-left: 20px;
+	margin-top: 30px;
+}
